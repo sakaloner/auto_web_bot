@@ -1,0 +1,10 @@
+To create an online ecommerce store webpage using Svelte, you would need to create the following .svelte files: 
+
+1. App.svelte
+2. MenuSurface.svelte
+3. List.svelte
+4. ProductCard.svelte
+5. Cart.svelte
+6. Checkout.svelte 
+
+You would also need to create any additional files for components or modules that you use in your webpage.

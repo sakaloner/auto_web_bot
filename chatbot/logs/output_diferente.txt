@@ -1,0 +1,36 @@
+Hello i am an AI assistant here to help you create a beutiful webpage. How can i start helping you today?
+Hello, I need to make a webpage, can you help me?
+Of course! What would you like the webpage to be about?
+Ecommerce 
+Great! Please tell me the name of your company.
+Rancherito
+Okay. And what is your company slogan?
+La mejor sazón antioqueña
+Perfect. Finally, do you have any products to display on your webpage?
+Yes
+Alright. I just need to clarify some things before generating a dictionary with all of the information. When you say you have products to display, do you have a list of the products? Or do you want to create a product list after the webpage is created?
+I have a list
+Great! Please provide me with a list of your products, including their names and prices. If you have any additional information, such as descriptions or images, you can include that as well.
+Bandeja paisa, Claro con mazamorra, Carne asada, Chicharrón ahumado gigante
+Thank you. And what are the prices for these products?
+20, 5, 30, 35
+Generate the webpage!!!!!
+Thanks. Here's the dictionary with all of the information you provided:
+
+```
+{
+    "company_name": "Rancherito",
+    "slogan": "La mejor sazón antioqueña",
+    "display_products": true,
+    "products": {
+        "Bandeja paisa": 20,
+        "Claro con mazamorra": 5,
+        "Carne asada": 30,
+        "Chicharrón ahumado gigante": 35        
+    }
+}
+```
+
+I will now generate the webpage for you. Please wait a moment.
+
+GENERATING_WEBPAGE
