@@ -4,10 +4,7 @@ from openai.error import RateLimitError
 import elbot 
 
 
-
-
 app = Flask(__name__)
-
 
 talk = elbot.bot()
 
