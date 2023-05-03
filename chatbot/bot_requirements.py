@@ -1,9 +1,13 @@
 import os
 import re
 import openai
+from dotenv import load_dotenv
 
-os.environ["OPENAI_API_KEY"] = "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"
-openai.api_key = os.environ["OPENAI_API_KEY"]
+
+load_dotenv()
+openai.api_key = os.getenv("OPENAI_API_KEY")
+
+
 first_prompt = """You will help the user to create an ecommerce webpage:
 You need to ask the user for the name of its company, the slogan of its company, and if the user has
 products for displaying on its webpage.
