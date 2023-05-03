@@ -1,22 +1,14 @@
 import json 
 from flask import Flask, render_template, request, jsonify
-import openai
 from openai.error import RateLimitError
-import os
-from dotenv import load_dotenv 
 import elbot 
 
 
-app = Flask(__name__)
-#load_dotenv()
-#openai.api_key = os.getenv("OPENAI_API_KEY")
-#=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
-#os.environ["OPENAI_API_KEY"] = "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"
-#OPENAI_API_KEY="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"
 
-#openai.api_key = os.environ["OPENAI_API_KEY"]
-openai.api_key = "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"
-ai_key = openai.api_key
+
+app = Flask(__name__)
+
+
 talk = elbot.bot()
 
 @app.route('/')
