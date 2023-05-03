@@ -2,8 +2,7 @@ import os
 import re
 import openai
 
-os.environ["OPENAI_API_KEY"] = "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"
-os.environ["SERPAPI_API_KEY"] = "218d14c3ee3ad7ab734199d125889b23a0acdf5144feaf540abdfa4a22ed3e65"
+os.environ["OPENAI_API_KEY"] = "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"
 openai.api_key = os.environ["OPENAI_API_KEY"]
 first_prompt = """You will help the user to create an ecommerce webpage:
 You need to ask the user for the name of its company, the slogan of its company, and if the user has
